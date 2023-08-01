@@ -1,0 +1,26 @@
+.header {
+    margin: 0 auto;
+    padding: $spacing-lg 0;
+    display: flex;
+    max-width: var(--max-width);
+  
+    .header-title {
+      visibility: hidden;
+    }
+
+    &__nav-link {
+        opacity: 1;
+        padding: 0;
+        color: currentcolor;
+        height: auto;
+        background-color: transparent;
+        margin-right: $spacing-xl;
+        color: var(--color-foreground2);
+        text-decoration: none;
+
+        &--active {
+            color: var(--color-foreground3);
+            text-decoration: underline;
+        }
+    }
+}

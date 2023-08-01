@@ -1,0 +1,32 @@
+{
+  "name": "trader-vue",
+  "private": true,
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "concurrently \"node server.mjs\" \"vite\"",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "concurrently \"node server.mjs\" \"vite preview\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.3",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^18.11.5",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/test-utils": "^2.0.0-rc.16",
+    "@vue/vue3-jest": "^27.0.0-alpha.3",
+    "concurrently": "^7.5.0",
+    "jest": "^27.3.1",
+    "sass": "^1.55.0",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vue-tsc": "^1.0.9",
+    "ws": "^8.10.0"
+  }
+}

@@ -1,0 +1,27 @@
+.custom-tooltip {
+    display: inline-block;
+    position: relative;
+    width: 8px;
+
+    &__container {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        z-index: 9;
+        background-color: var(--color-background3);
+        border: 1px solid var(--color-background2);
+        padding: 10px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        min-width: 250px;
+    }
+
+    &__content {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    &__icon {
+        cursor: pointer;
+    }
+}

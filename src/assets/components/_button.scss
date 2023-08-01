@@ -1,0 +1,43 @@
+.button {
+    padding: $spacing-xs $spacing-md;
+    border: none;
+    border-radius: $spacing-xxs;
+    background: var(--color-primary-blue2);
+    color: var(--color-foreground3);
+    font-family: inherit;
+  
+    &:hover {
+      background: var(--color-primary-blue3);
+    }
+  
+    &:active {
+      background: var(--color-primary-blue1);
+    }
+  
+    &--disabled {
+      background: var(--color-background6);
+  
+      .button-content {
+        color: var(--app-foreground1);
+        cursor: not-allowed;
+      }
+
+      &:hover {
+        background: var(--color-background6);
+      }
+    }
+
+    &--secondary {
+      background: var(--color-secondary-blue2);
+      color: var(--color-foreground3);
+  
+      &:hover {
+        background: var(--color-secondary-blue3);
+      }
+  
+      &:active {
+        background: var(--color-secondary-blue1);
+      }
+    }
+  }
+  

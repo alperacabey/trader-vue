@@ -1,0 +1,31 @@
+#app {
+    font-family: var(--font-regular);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+.main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+  
+    @media (min-width: 768px) and (max-width: 1023px) {
+        max-width: 768px;
+    }
+  
+    @media (min-width: 1024px) {
+        max-width: 1200px;
+    }
+}
+  
+.heading1 {
+    font-family: var(--font-bold);
+}
+  
+.component-list {
+    padding: 0 0 0 $spacing-md;
+}

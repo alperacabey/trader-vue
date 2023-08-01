@@ -1,0 +1,9 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing-xl;
+
+    &__input , &__button , &__info {
+        margin-right: $spacing-md;
+    }
+}
